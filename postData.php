@@ -1,8 +1,15 @@
 <?php
+//local database
+//$servername = "localhost";
+//$username = "root";
+//$password = "Hjarta123!";
+//$database = "db";
+
+//Oscar database
 $servername = "localhost";
 $username = "root";
-$password = "Hjarta123!";
-$database = "db";
+$password = "Bk&=kw/gH3rY";
+$database = "sys";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
